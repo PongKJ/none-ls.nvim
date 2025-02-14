@@ -148,6 +148,9 @@ return {
   puppet_lint = {
     filetypes = { "puppet", "epuppet" }
   },
+  pydoclint = {
+    filetypes = { "python" }
+  },
   pylint = {
     filetypes = { "python" }
   },
@@ -188,6 +191,9 @@ return {
     filetypes = { "yaml", "json" }
   },
   sqlfluff = {
+    filetypes = { "sql" }
+  },
+  sqruff = {
     filetypes = { "sql" }
   },
   staticcheck = {
